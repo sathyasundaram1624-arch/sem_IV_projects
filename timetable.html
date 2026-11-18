@@ -1,0 +1,196 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Time Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .title {
+            background-color: lightgreen;
+        }
+
+        .technical {
+            background-color: lightblue;
+        }
+
+        .communication {
+            background-color: #ffe49c;
+        }
+
+        .os {
+            background-color: lightcoral;
+        }
+
+        .fullstack {
+            background-color: lightgreen;
+        }
+
+        .lunch {
+            background-color: lightblue;
+            font-weight: bold;
+        }
+
+        .lab {
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+
+<table>
+    <tr>
+        <th colspan="8" class="title">Time Table</th>
+    </tr>
+
+    <tr>
+        <th colspan="8">BSC CT (II YEAR)</th>
+    </tr>
+
+    <tr>
+        <th>Time/Day</th>
+        <th>9.30 AM - 10.25 AM</th>
+        <th>10.25 AM - 11.20 AM</th>
+        <th>11.20 AM - 12.15 PM</th>
+        <th>12.15 PM - 12.55 PM</th>
+        <th>12.55 PM - 1.50 PM</th>
+        <th>1.50 PM - 2.45 PM</th>
+        <th>Evening Session<br>
+            (3:40 PM - 5:30 PM)</th>
+    </tr>
+
+    <tr>
+        <th>Hour</th>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+        <th rowspan="6" class="lunch">LUNCH</th>
+        <th>4</th>
+        <th>5</th>
+        <th>6</th>
+    </tr>
+
+    <tr>
+        <th>Monday</th>
+        <td colspan="2" class="technical">Technical Session</td>
+        <td>Aptitude</td>
+        <td>English IV</td>
+        <td>Full Stack Development</td>
+        <td>Tamil IV</td>
+    </tr>
+
+    <tr>
+        <th>Tuesday</th>
+        <td colspan="2" class="technical">Technical Session</td>
+        <td>Tamil IV</td>
+        <td>Full Stack Development</td>
+        <td>Aptitude</td>
+        <td class="os">Operating Systems</td>
+    </tr>
+
+    <tr>
+        <th>Wednesday</th>
+        <td colspan="2" class="technical">Technical Session</td>
+        <td class="os">Operating Systems</td>
+        <td colspan="2" class="communication">
+            Communication
+        </td>
+        <td>ENGLISH IV / English for Life Skills</td>
+    </tr>
+
+    <tr>
+        <th>Thursday</th>
+        <td colspan="2" class="technical">Technical Session</td>
+        <td class="fullstack">Full Stack Development - LAB</td>
+        <td class="os">Operating Systems</td>
+        <td>Aptitude</td>
+        <td>Full Stack Development</td>
+    </tr>
+
+    <tr>
+        <th>Friday</th>
+        <td colspan="2" class="technical">Technical Session</td>
+        <td class="lab">Web Application Development Lab</td>
+        <td colspan="2" class="communication">
+            Communication
+        </td>
+        <td>Aptitude</td>
+    </tr>
+
+</table>
+
+</body>
+</html>
+```
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: center;
+        font-family: Arial;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+    }
+
+    /* Main Heading */
+    .title {
+        background-color: #90EE90;
+        color: black;
+    }
+
+    /* Day and Hour */
+    th {
+        background-color: #D6EAF8;
+    }
+
+    /* Different Subject Colours */
+    .technical {
+        background-color: #B3E5FC;
+    }
+
+    .aptitude {
+        background-color: #FFD180;
+    }
+
+    .tamil {
+        background-color: #E1BEE7;
+    }
+
+    .english {
+        background-color: #C8E6C9;
+    }
+
+    .fullstack {
+        background-color: #A5D6A7;
+    }
+
+    .os {
+        background-color: #EF9A9A;
+    }
+
+    .communication {
+        background-color: #FFF59D;
+    }
+
+    .lab {
+        background-color: #F8BBD0;
+    }
+
+    .lunch {
+        background-color: #80DEEA;
+        font-weight: bold;
+    }
+</style>
